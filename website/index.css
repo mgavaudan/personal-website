@@ -1,1 +1,19 @@
-/* CSS declarations go here */
+#home{
+    position: absolute;
+    top:0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-image: url("japan-wallpaper-14.jpg");
+}
+
+#content{
+  margin-left:28%;
+  margin-right:30%;
+  margin-top:13em;
+  opacity:0.8;
+  width:44%;
+  height:40em;
+  background:white;
+ 
+}
