@@ -1,0 +1,77 @@
+html {
+display: table; width: 100%; height: 100%;}
+
+
+body {
+display: table-cell; margin: 0; vertical-align: middle; text-align: center; font: 300 20px/1.4 Roboto, 'Open Sans', Helvetica, Arial, sans-serif; color: #fff; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.66); background: #4D4646 50% 50% no-repeat; background-size: cover;}
+
+.background-container {
+position: fixed;
+left: 0;
+right: 0;
+top: 0;
+bottom: 0;
+}
+
+noindex:-o-prefocus, .background-container {
+display: none;
+}
+
+.title{
+  color: #9d967d;
+  font-family: mainFont;
+  width:40%;
+  position: absolute;
+  top:30%;
+  left:30%;
+  right: 30%;
+  border-bottom: 1px solid;
+}
+
+.wrapper{
+  color: white;
+  font-family: mainFont;
+  width:40%;
+  padding:2%;
+  position: absolute;
+  top:40%;
+  left:27.25%;
+  right:32.75%;
+  vertical-align:middle;
+}
+
+
+
+.scene{font-size:240%;font-weight:400;line-height:1.6}
+
+.links{
+  color: #9d967d;
+  font-family:mainFont;
+  width:40%;
+  border-top: 1px solid;
+  position:absolute;
+  top:55%;
+  left:30%;
+  right:30%;
+  padding-top:3%;
+}
+
+.link{
+  float: left;
+  margin-left:12.5%;
+  margin-right:3%;
+  width:12%;
+  padding:4px;
+  display:inline-block;
+}
+
+.link:hover{
+  border: 1px solid;
+  cursor:pointer;
+  background:black;
+}
+
+@font-face {
+    font-family: mainFont;
+    src: url(fonts/OFLGoudyStMTT.ttf);
+}
