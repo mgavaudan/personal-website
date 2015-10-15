@@ -20,17 +20,18 @@ display: none;
 .title{
   color: #9d967d;
   font-family: mainFont;
-  width:40%;
+  font-size:2em;
+  width:60%;
   position: absolute;
-  top:30%;
-  left:30%;
-  right: 30%;
+  top:15%;
+  left:20%;
+  right: 20%;
   border-bottom: 1px solid;
 }
 
 .wrapper{
   color: white;
-  font-family: mainFont;
+  font-family: 'Prociono', serif;
   width:40%;
   padding:2%;
   position: absolute;
@@ -45,19 +46,19 @@ display: none;
 .scene{font-size:240%;font-weight:400;line-height:1.6}
 
 .links{
-  width:40%;
+  width:60%;
   border-top: 1px solid;
   border-color: #9d967d;
   position:absolute;
   top:55%;
-  left:30%;
-  right:30%;
+  left:20%;
+  right:20%;
   padding-top:3%;
 }
 
 .link{
   float: left;
-  margin-left:12.5%;
+  margin-left:23%;
   margin-right:3%;
   width:12%;
   padding:4px;
@@ -71,12 +72,13 @@ display: none;
 }
 a{
   color: #9d967d;
-  font-family:mainFont;
+  font-family: 'Prociono', serif ;
   text-decoration: none;
 
 }
 
-@font-face {
-    font-family: mainFont;
-    src: url(fonts/OFLGoudyStMTT.ttf);
+@font-face{
+  font-family: mainFont;
+  src: url("../fonts/OFLGoudyStMTT.ttf");
+
 }
