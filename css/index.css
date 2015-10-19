@@ -23,10 +23,9 @@ display: none;
   font-size:2em;
   width:60%;
   position: absolute;
-  top:15%;
+  top:12%;
   left:20%;
   right: 20%;
-  border-bottom: 1px solid;
 }
 
 .wrapper{
@@ -36,9 +35,13 @@ display: none;
   padding:2%;
   position: absolute;
   top:40%;
-  left:27.25%;
+  left:23%;
   right:32.75%;
+  padding-left:5em;
+  padding-right:5em;
   vertical-align:middle;
+  border-top: 1px solid #9d967d;
+  border-bottom: 1px solid #9d967d;
 }
 
 
@@ -46,36 +49,57 @@ display: none;
 .scene{font-size:240%;font-weight:400;line-height:1.6}
 
 .links{
+  font-size: 150%;
   width:60%;
-  border-top: 1px solid;
-  border-color: #9d967d;
   position:absolute;
-  top:55%;
+  top:50%;
   left:20%;
   right:20%;
-  padding-top:3%;
+  padding-top:8%;
 }
 
 .link{
+  color: #9d967d;
+  font-family: 'Prociono', serif ;
+  text-decoration: none;
   float: left;
-  margin-left:23%;
+  margin-left:20%;
   margin-right:3%;
-  width:12%;
-  padding:4px;
+  margin-bottom: 0%;
+  width:19%;
   display:inline-block;
 }
 
 .link:hover{
-  border: 1px solid;
+  font-size:120%;
   cursor:pointer;
-  background:black;
 }
-a{
-  color: #9d967d;
-  font-family: 'Prociono', serif ;
+
+.navbar{
+  display: none;
+  margin-left:10%;
   text-decoration: none;
+}
+
+a.navbar{
+  color: #9d967d;
 
 }
+
+.wrapperNav{
+   position: absolute;
+   top:0;
+   color: #9d967d;
+   font-family: 'Prociono', serif ;
+   float: left;
+   margin-left:22%;
+   width:50%;
+   padding: 1em;
+}
+
+
+}
+
 
 @font-face{
   font-family: mainFont;
