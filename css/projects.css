@@ -51,11 +51,13 @@ body {
   background-color: white;
   width: 70%;
   height: 35em;
+  padding-bottom: 2em;
   position: absolute;
   top:10%;
   left:15%;
   right:15%;
   box-shadow:0px 0px 0px 10px #333333 inset;
+  overflow: scroll;
 }
 
 .web{
@@ -74,13 +76,9 @@ body {
   text-decoration: none;
 }
 
-.web a:hover{
-  color:#333333;
-}
 .web:hover{
-  color:#333333;
   cursor:pointer;
-  background-color: #9d967d;
+  background-color: black;
   font-color: ;
 }
 
